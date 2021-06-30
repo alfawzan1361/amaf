@@ -1,0 +1,67 @@
+.experienceParallax {
+  height: 310px;
+  width: 100%;
+  padding: 5px;
+  background-color: #202e42;
+}
+
+.experienceParallaxImage {
+  background-image: url('../images/Experience-2.png');
+  background-size: 550px;
+  background-position: top center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.divServiceParallax {
+  background-color: #202e42;
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.serviceText {
+  background-image: url('../images/ServicesText.png');
+  background-position: center center;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.serviceFullText {
+  background-image: url('../images/ServicesFullText.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: repeat;
+  height: 800px;
+  width: 100%;
+  opacity: 0.1;
+  
+}
+
+@media (max-width: 767px) {
+  .experienceParallax {
+    display: none;
+  }
+  .divServiceParallax {
+    height: 500px;
+    width: 100%
+  }
+  .serviceText {
+    background-size: 500px;
+    height: 500px;
+    width: 100%
+  }
+  .serviceFullText {
+    height: 500px;
+    width: 100%;
+    background-attachment: scroll;
+  }
+}
